@@ -1,0 +1,25 @@
+.gallery {
+  position: relative;
+  .gallery-content {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    h4 {
+      font-family: 'montserratmedium';
+      color: var(--tp-common-white);
+      font-size: 22px;
+    }
+    span {
+      font-family: 'montserratmedium';
+      color: var(--tp-common-white);
+      font-size: 15px;
+    }
+  }
+}
+.arrow-btn {
+  border: 1px solid var(--tp-common-blue2);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0 15px;
+}

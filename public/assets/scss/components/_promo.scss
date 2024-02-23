@@ -1,0 +1,42 @@
+.promo-img {
+  position: relative;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  &.first-child {
+    .promo-content {
+      h1 {
+        font-family: 'red_hat_displayblack';
+        color: var(--tp-common-white);
+        font-size: 50px;
+        line-height: 140%;
+      }
+    }
+  }
+  .promo-content {
+    span {
+      color: var(--tp-common-white);
+      font-family: 'red_hat_displaymedium';
+      border: 1px solid var(--tp-common-white);
+      border-radius: 50px;
+      padding: 8px 15px;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    h1 {
+      color: var(--tp-common-white);
+      font-family: 'red_hat_displayregular';
+      font-size: 32px;
+      line-height: 150%;
+      letter-spacing: 0.03rem;
+      margin-bottom: 30px;
+    }
+    .btn-link {
+      color: var(--tp-common-white);
+      font-size: 22px;
+    }
+  }
+}

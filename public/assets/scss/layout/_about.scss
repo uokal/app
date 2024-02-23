@@ -1,0 +1,43 @@
+.about-img {
+  position: relative;
+  padding: 25px;
+  background-image: url('../../img/other/aboutimg.jpg');
+  width: 100%;
+  height: 668px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .about-content {
+    h6 {
+      color: var(--tp-common-white);
+      font-family: 'montserratmedium';
+      font-size: 14px;
+    }
+    h1 {
+      color: var(--tp-common-white);
+      font-family: 'montserratsemibold';
+      font-size: 38px;
+    }
+  }
+}
+.about-content {
+  h6 {
+    font-family: 'red_hat_displayregular';
+    font-size: 14px;
+    color: var(--tp-common-blue2);
+  }
+}
+.aboutItems {
+  padding: 20px 0;
+  .aboutItems-content {
+    strong {
+      font-family: 'montserratsemibold';
+      font-size: 20px;
+      color: var(--tp-common-blue2);
+    }
+    p {
+      font-family: 'montserratmedium';
+      font-size: 20px;
+      color: var(--tp-common-blue2);
+    }
+  }
+}
