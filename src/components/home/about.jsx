@@ -13,17 +13,17 @@ function About() {
             <Col md={12} className="text-center pb-20 wow tpfadeUp">
               <h6>Medien, die über uns berichtet haben:</h6>
             </Col>
-            <Col md={3}>
-              <Image src="./assets/img/brands/logo-1.png" />
+            <Col md={3} className="align-items-center d-flex">
+              <Image src="./assets/img/brands/brand-1.svg" />
             </Col>
-            <Col md={3}>
-              <Image src="./assets/img/brands/logo-2.png" />
+            <Col md={3} className="align-items-center d-flex">
+              <Image src="./assets/img/brands/brand-2.svg" />
             </Col>
-            <Col md={3}>
-              <Image src="./assets/img/brands/logo-3.png" />
+            <Col md={3} className="align-items-center d-flex">
+              <Image src="./assets/img/brands/brand-3.svg" />
             </Col>
-            <Col md={3}>
-              <Image src="./assets/img/brands/logo-4.png" />
+            <Col md={3} className="align-items-center d-flex">
+              <Image src="./assets/img/brands/brand-4.svg" />
             </Col>
           </Row>
           <Row

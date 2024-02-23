@@ -6,7 +6,7 @@ import Home from "../components/home";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"futuredoctor - Study medicine abroad"} />
+      <SEO pageTitle={"Futuredoctor - Study medicine abroad"} />
       <Home />
     </Wrapper>
   );

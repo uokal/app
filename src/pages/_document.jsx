@@ -4,6 +4,12 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="../../../assets/img/logo/favicon-96x96.png"
+        ></link>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"

@@ -31,7 +31,7 @@ function Promo() {
               <div
                 className="promo-img first-child"
                 style={{
-                  backgroundImage: `url(./assets/img/other/promo-1.jpg)`
+                  backgroundImage: `url(./assets/img/other/promo-1.svg)`
                 }}
               >
                 <div className="promo-content">
@@ -52,9 +52,9 @@ function Promo() {
                   data-wow-delay=".5s"
                 >
                   <div
-                    className="promo-img"
+                    className="promo-img after-image"
                     style={{
-                      backgroundImage: `url(./assets/img/other/promo-2.png)`
+                      backgroundImage: `url(./assets/img/other/promo-2.svg)`
                     }}
                   >
                     <div className="promo-content">
@@ -79,7 +79,7 @@ function Promo() {
                   <div
                     className="promo-img"
                     style={{
-                      backgroundImage: `url(./assets/img/other/promo-3.png)`
+                      backgroundImage: `url(./assets/img/other/promo-3.svg)`
                     }}
                   >
                     <div className="promo-content">

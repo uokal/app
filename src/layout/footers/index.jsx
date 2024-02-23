@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import footer_strom from "../../../public/assets/img/logo/strom-01-3.svg";
 import footer_dron from "../../../public/assets/img/other/drone-mail-300x268.png";
-import footer_logo from "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from "../../../public/assets/img/logo/logo-black.svg";
 import { Button } from "react-bootstrap";
 
 const footer_content = {
@@ -88,7 +88,12 @@ const Footer = ({ style_contact, bg_style = true, style_team }) => {
                   </h4>
                   <div className="tp-footer__contact-info">
                     {" "}
-                    <Image src={footer_dron} alt="" />
+                    <Image
+                      src={footer_dron}
+                      alt=""
+                      width="134px"
+                      height="120px"
+                    />
                     <p>
                       Take the first step and order your free information
                       package about studying medicine abroad today.

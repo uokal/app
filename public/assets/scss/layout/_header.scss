@@ -418,11 +418,11 @@
             }
           }
           & a {
-            font-weight: normal;
             font-size: 17px;
             line-height: 14px;
             padding: 35px 0;
-            font-family: 'red_hat_displaymedium';
+            font-family: 'Red Hat Display';
+            font-weight: 500;
             @media #{$lg} {
               font-size: 16px;
             }
@@ -616,7 +616,7 @@
                 text-transform: capitalizes;
                 font-size: 14px;
                 color: var(--tp-common-black);
-                font-family: 'red_hat_displaymedium';
+                font-family: 'Red Hat Display';
                 position: relative;
                 letter-spacing: 1px;
                 font-weight: 500;
@@ -660,7 +660,7 @@
             font-size: 16px;
             line-height: 14px;
             color: var(--tp-common-white);
-            font-family: 'red_hat_displaymedium';
+            font-family: 'Red Hat Display';
             display: inline-block;
             position: relative;
             &::after {
@@ -683,11 +683,11 @@
     }
   }
   &__login {
-    font-weight: 600;
     font-size: 15px;
     line-height: 12px;
     letter-spacing: -0.02em;
-    font-family: 'red_hat_displaymedium';
+    font-family: 'Red Hat Display';
+    font-weight: 500;
     color: var(--tp-common-white);
     &:hover {
       color: var(--tp-theme-2);

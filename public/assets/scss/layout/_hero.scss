@@ -234,7 +234,7 @@
     line-height: 30px;
     letter-spacing: 0.01em;
     color: #595b62;
-    font-family: var(--tp-ff-urban);
+    font-family: 'Red Hat Display';
     padding-bottom: 20px;
     @media #{$xs} {
       font-size: 15px;
@@ -260,7 +260,7 @@
       font-size: 13px;
       letter-spacing: 0.02em;
       color: #a0a3ab;
-      font-family: var(--tp-ff-urban);
+      font-family: 'Red Hat Display';
       margin-bottom: 0;
     }
   }
@@ -362,7 +362,7 @@
     line-height: .8;
   }
   & span.child-1.chonky {
-    font-family: Chonky Poster;
+    font-family: "Chonky Poster";
     color: var(--tp-common-blue);
     position: relative;
     &::after {
@@ -564,7 +564,7 @@
     z-index: 5;
     & span {
       display: block;
-      font-family: var(--tp-ff-mont);
+      font-family: 'Red Hat Display';
       font-weight: 500;
       font-size: 14px;
       color: #5f6168;

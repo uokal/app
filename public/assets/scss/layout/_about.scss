@@ -6,6 +6,7 @@
   height: 668px;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 16px;
   .about-content {
     h6 {
       color: var(--tp-common-white);
@@ -21,7 +22,8 @@
 }
 .about-content {
   h6 {
-    font-family: 'red_hat_displayregular';
+    font-family: 'Red Hat Display';
+    font-weight: 300;
     font-size: 14px;
     color: var(--tp-common-blue2);
   }

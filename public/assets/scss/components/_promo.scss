@@ -3,40 +3,57 @@
   padding: 30px;
   height: 100%;
   width: 100%;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 20px;
+  border-radius: 16px;
+  &.after-image {
+    &::after {
+      content: '';
+      background-image: url('../../img/other/promo-3-1.svg');
+      width: 204px;
+      height: 338px;
+      display: inline-block;
+      position: absolute;
+      top: -40px;
+      right: 0;
+    }
+  }
   &.first-child {
     .promo-content {
       h1 {
-        font-family: 'red_hat_displayblack';
+        font-family: 'Red Hat Display';
         color: var(--tp-common-white);
         font-size: 50px;
         line-height: 140%;
+        font-weight: 700;
       }
     }
   }
   .promo-content {
     span {
       color: var(--tp-common-white);
-      font-family: 'red_hat_displaymedium';
+      font-family: 'Red Hat Display';
       border: 1px solid var(--tp-common-white);
       border-radius: 50px;
       padding: 8px 15px;
       margin-bottom: 15px;
       display: inline-block;
+      font-weight: 500;
     }
     h1 {
       color: var(--tp-common-white);
-      font-family: 'red_hat_displayregular';
+      font-family: 'Red Hat Display';
       font-size: 32px;
       line-height: 150%;
       letter-spacing: 0.03rem;
       margin-bottom: 30px;
+      font-weight: 500;
     }
     .btn-link {
       color: var(--tp-common-white);
       font-size: 22px;
+      font-weight: 500;
     }
   }
 }

@@ -1,52 +1,28 @@
 @font-face {
-  font-family: 'red_hat_displayregular';
-  src: url('../../fonts/webfont/redhatdisplay-regular-webfont.woff2')
-      format('woff2'),
-    url('../../fonts/webfont/redhatdisplay-regular-webfont.woff') format('woff'),
-    url('../../fonts/webfont/redhatdisplay-regular-webfont.ttf')
-      format('truetype'),
-    url('../../fonts/webfont/redhatdisplay-regular-webfont.svg#red_hat_displayregular')
-      format('svg');
-  font-weight: normal;
+  font-family: 'Red Hat Display';
+  src: url('../../fonts/webfont/RedHatDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/webfont/RedHatDisplay-Bold.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'red_hat_displayblack';
-  src: url('../../fonts/webfont/redhatdisplay-black-webfont.woff2')
-      format('woff2'),
-    url('../../fonts/webfont/redhatdisplay-black-webfont.woff') format('woff'),
-    url('../../fonts/webfont/redhatdisplay-black-webfont.ttf')
-      format('truetype'),
-    url('../../fonts/webfont/redhatdisplay-black-webfont.svg#red_hat_displayblack')
-      format('svg');
-  font-weight: normal;
+  font-family: 'Red Hat Display';
+  src: url('../../fonts/webfont/RedHatDisplay-Medium.woff2') format('woff2'),
+    url('../../fonts/webfont/RedHatDisplay-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'red_hat_displaybold';
-  src: url('../../fonts/webfont/redhatdisplay-bold-webfont.woff2')
-      format('woff2'),
-    url('../../fonts/webfont/redhatdisplay-bold-webfont.woff') format('woff'),
-    url('../../fonts/webfont/redhatdisplay-bold-webfont.ttf') format('truetype'),
-    url('../../fonts/webfont/redhatdisplay-bold-webfont.svg#red_hat_displaybold')
-      format('svg');
-  font-weight: normal;
+  font-family: '../../fonts/webfont/Red Hat Display';
+  src: url('../../fonts/webfont/RedHatDisplay-Light.woff2') format('woff2'),
+    url('../../fonts/webfont/RedHatDisplay-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'red_hat_displaymedium';
-  src: url('../../fonts/webfont/redhatdisplay-medium-webfont.woff2')
-      format('woff2'),
-    url('../../fonts/webfont/redhatdisplay-medium-webfont.woff') format('woff'),
-    url('../../fonts/webfont/redhatdisplay-medium-webfont.ttf')
-      format('truetype'),
-    url('../../fonts/webfont/redhatdisplay-medium-webfont.svg#red_hat_displaymedium')
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
