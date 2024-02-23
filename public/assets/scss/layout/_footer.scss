@@ -128,6 +128,19 @@
         }
       }
     }
+    img {
+      max-width: 150px;
+      width: 100%;
+      margin-bottom: 15px;
+      @media #{$xs} {
+        max-width: 150px;
+        margin-bottom: 10px;
+      }
+    }
+    @media #{$xs} {
+      p {
+      }
+    }
   }
   &__qrcode {
     flex: 0 0 auto;

@@ -25,6 +25,16 @@ const Offcanvus = ({ sidebarOpen, setSidebarOpen }) => {
             <MobileMenus />
           </div>
           <div className="tpoffcanvas__instagram text-center"></div>
+          <div className="tpoffcanvas__social">
+            <Link className="btn btn-primary w-100 mb-15" href="/">
+              <span className="white-text">Jetzt bewerben</span>
+              <b></b>
+            </Link>
+            <Link className="btn btn-outline-primary  w-100" href="/">
+              <span className="white-text">Kontakt</span>
+              <b></b>
+            </Link>
+          </div>
         </div>
       </div>
       <div

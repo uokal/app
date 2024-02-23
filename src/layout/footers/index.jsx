@@ -88,12 +88,7 @@ const Footer = ({ style_contact, bg_style = true, style_team }) => {
                   </h4>
                   <div className="tp-footer__contact-info">
                     {" "}
-                    <Image
-                      src={footer_dron}
-                      alt=""
-                      width="134px"
-                      height="120px"
-                    />
+                    <Image src={footer_dron} alt="" />
                     <p>
                       Take the first step and order your free information
                       package about studying medicine abroad today.

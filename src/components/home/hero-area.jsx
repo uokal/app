@@ -100,14 +100,12 @@ const HeroArea = () => {
                     Wirklichkeit werden zu lassen.
                   </p>
                 </div>
-                <Col md={8} className="d-flex mb-50">
+                <Col md={8} className="d-flex count">
                   {fun_fact_data.map((item, i) => (
                     <div key={i} className="w-100">
-                      <div
-                        className={`tp-fun-fact-item tp-fun-fact-space-${item.cls} d-flex align-items-center flex-column`}
-                      >
+                      <div className={` d-flex align-items-center flex-column`}>
+                        <Image src={item.img} alt="theme-pure" />
                         <h4>
-                          <Image src={item.img} alt="theme-pure" />
                           <span
                             data-purecounter-duration="1"
                             data-purecounter-end="300"

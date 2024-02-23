@@ -1,3 +1,4 @@
+@use '../utils' as *;
 .promo-img {
   position: relative;
   padding: 30px;
@@ -7,6 +8,9 @@
   background-repeat: no-repeat;
   margin-bottom: 20px;
   border-radius: 16px;
+  @media #{$xs} {
+    min-height: 500px;
+  }
   &.after-image {
     &::after {
       content: '';
@@ -17,6 +21,10 @@
       position: absolute;
       top: -40px;
       right: 0;
+      @media #{$xs} {
+        top: unset;
+        bottom: 15px;
+      }
     }
   }
   &.first-child {
@@ -49,11 +57,20 @@
       letter-spacing: 0.03rem;
       margin-bottom: 30px;
       font-weight: 500;
+      @media #{$xs} {
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
     }
     .btn-link {
       color: var(--tp-common-white);
       font-size: 22px;
       font-weight: 500;
+      @media #{$xs} {
+        font-size: 14px;
+      }
     }
   }
 }

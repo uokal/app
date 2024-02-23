@@ -39,11 +39,17 @@ const Header = () => {
               <div className="col-xxl-2 col-xl-3 col-lg-2 col-md-8 col-6">
                 <div className="header-bottom__right header-five__btn d-flex align-items-center justify-content-end">
                   <div className="header-bottom__btn d-flex align-items-center">
-                    <Link className="btn btn-primary" href="/">
+                    <Link
+                      className="btn btn-primary d-none d-lg-block"
+                      href="/"
+                    >
                       <span className="white-text">Jetzt bewerben</span>
                       <b></b>
                     </Link>
-                    <Link className="btn btn-outline-primary" href="/">
+                    <Link
+                      className="btn btn-outline-primary d-none d-lg-block"
+                      href="/"
+                    >
                       <span className="white-text">Kontakt</span>
                       <b></b>
                     </Link>

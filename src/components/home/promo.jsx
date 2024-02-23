@@ -24,7 +24,7 @@ function Promo() {
             </Col>
             <Col
               md={5}
-              className="wow tpfadeUp"
+              className="wow tpfadeUp my-2"
               data-wow-duration=".9s"
               data-wow-delay=".5s"
             >
@@ -47,7 +47,7 @@ function Promo() {
               <Row>
                 <Col
                   md={12}
-                  className="mb-20 wow tpfadeUp"
+                  className="my-2 wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".5s"
                 >
@@ -72,7 +72,7 @@ function Promo() {
                 </Col>
                 <Col
                   md={12}
-                  className="wow tpfadeUp"
+                  className="wow tpfadeUp my-2"
                   data-wow-duration=".9s"
                   data-wow-delay=".5s"
                 >

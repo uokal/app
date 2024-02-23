@@ -317,6 +317,9 @@ input[type="color"] {
 }
 .space {
   padding: 120px 0;
+  @media #{$xs} {
+    padding: 60px 0;
+  }
 }
 .gray-bg {
   background-color: var(--tp-grey-3);
@@ -345,5 +348,8 @@ input[type="color"] {
     font-family: 'Red Hat Display';
     font-weight: 700;
     margin-bottom: 15px;
+    @media #{$xs} {
+      font-size: 16px;
+    }
   }
 }

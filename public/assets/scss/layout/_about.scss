@@ -1,13 +1,22 @@
+@use '../utils' as *;
 .about-img {
   position: relative;
   padding: 25px;
   background-image: url('../../img/other/aboutimg.jpg');
   width: 100%;
   height: 668px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 16px;
+  @media #{$xs} {
+    height: 350px;
+  }
   .about-content {
+    @media #{$xs} {
+      hr {
+        margin: 0.5rem 0;
+      }
+    }
     h6 {
       color: var(--tp-common-white);
       font-family: 'montserratmedium';
@@ -30,16 +39,30 @@
 }
 .aboutItems {
   padding: 20px 0;
+  @media #{$xs} {
+    padding: 10px 0;
+    img {
+      width: 30px;
+      height: auto;
+    }
+  }
   .aboutItems-content {
     strong {
       font-family: 'montserratsemibold';
       font-size: 20px;
       color: var(--tp-common-blue2);
+      @media #{$xs} {
+        font-size: 12px;
+      }
     }
     p {
       font-family: 'montserratmedium';
       font-size: 20px;
       color: var(--tp-common-blue2);
+      @media #{$xs} {
+        font-size: 12px;
+        margin-bottom: 0;
+      }
     }
   }
 }

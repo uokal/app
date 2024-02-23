@@ -354,8 +354,9 @@
     }
   }
   @media #{$xs} {
-    font-size: 35px;
+    font-size: 30px;
     line-height: .8;
+    padding: 0 15px;
   }
   @media #{$sm} {
     font-size: 55px;
@@ -409,6 +410,10 @@
       font-size: 15px;
       color: var(--tp-common-dark-gray);
     }
+    @media #{$sm} {
+      padding-bottom: 15px;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -439,8 +444,9 @@
       padding-bottom: 100px;
     }
     @media #{$xs} {
-      padding-top: 160px;
+      padding-top: 100px;
       padding-bottom: 100px;
+      border-radius: 25px;
     }
   }
   &-thumb {
@@ -466,6 +472,11 @@
     @media #{$md} {
       margin-bottom: 40px;
     }
+    @media #{$xs} {
+      img {
+        display: block;
+      }
+    }
   }
   &__bg {
     position: absolute;
@@ -489,9 +500,15 @@
       padding-bottom: 30px;
       @media #{$xs} {
         font-size: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
         & br {
           display: none;
         }
+      }
+      @media #{$sm} {
+        padding-bottom: 15px;
+        margin-bottom: 0;
       }
     }
   }
@@ -527,7 +544,7 @@
 .tp-hero-five-btn-box {
   @media #{$xs} {
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 
@@ -671,11 +688,17 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  @media #{$xs} {
+    max-width: 45%;
+  }
 }
 .tp-hero-five-2-thumb-inner {
   margin-top: 60px;
   @media #{$xxl} {
     margin-top: 0;
+  }
+  @media #{$xs} {
+    margin-top: 30px;
   }
 }
 
@@ -842,4 +865,32 @@
   transform: translateY(80px);
   overflow: hidden;
   opacity: 0;
+}
+.count {
+  margin-bottom: 40px;
+  @media #{$xs} {
+    margin-bottom: 20px;
+  }
+  img {
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-family: 'Red Hat Display';
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 0;
+    @media #{$xs} {
+      font-size: 17px;
+      margin: 5px 0;
+    }
+  }
+  p {
+    font-family: 'Red Hat Display';
+    font-weight: 300;
+    font-size: 15px;
+    @media #{$xs} {
+      font-size: 12px;
+      line-height: normal;
+    }
+  }
 }
