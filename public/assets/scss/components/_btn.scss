@@ -64,9 +64,12 @@
     }
   }
   &.btn-link {
-    color: var(--tp-common-blue);
+    color: var(--tp-common-blue3);
     text-decoration: none;
     padding: 0;
+    font-family: 'montserratmedium';
+    height: auto;
+    line-height: normal;
     i {
       margin-left: 15px;
     }

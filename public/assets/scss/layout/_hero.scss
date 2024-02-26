@@ -363,9 +363,11 @@
     line-height: .8;
   }
   & span.child-1.chonky {
-    font-family: "Chonky Poster";
+    font-family: "Chonky";
     color: var(--tp-common-blue);
     position: relative;
+    font-weight: normal;
+    letter-spacing: normal;
     &::after {
       content: "";
       position: absolute;

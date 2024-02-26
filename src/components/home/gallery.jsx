@@ -7,7 +7,7 @@ import side_img_1 from "../../../public/assets/img/other/slide-1.png";
 import side_img_2 from "../../../public/assets/img/other/slide-2.png";
 import side_img_3 from "../../../public/assets/img/other/slide-3.png";
 import side_img_4 from "../../../public/assets/img/other/slide-3.png";
-
+import icon_4 from "../../../public/assets/img/icons/icon-4.png";
 const gallery_data = [
   {
     id: 1,
@@ -104,16 +104,19 @@ function Gallery() {
   return (
     <section className="space gray-bg">
       <Container>
-        <Row>
+        <Row className="align-items-center head-space">
           <Col
-            md={8}
+            md={9}
             className="wow tpfadeUp"
             data-wow-duration=".9s"
             data-wow-delay=".5s"
           >
             <div className="head-title">
               <span>UNIS & LÄNDER</span>
-              <h2>An welchem Ort würdest du am liebsten studieren?</h2>
+              <h2 className="img-icon">
+                An welchem Ort würdest du am liebsten studieren?{" "}
+                <Image src={icon_4} alt="icon" />
+              </h2>
 
               <Button variant="link">
                 Zu den Universitäten <i className="far fa-arrow-right"></i>
@@ -121,7 +124,7 @@ function Gallery() {
             </div>
           </Col>
           <Col
-            md={4}
+            md={3}
             className="wow tpfadeUp"
             data-wow-duration=".9s"
             data-wow-delay=".5s"
@@ -139,6 +142,8 @@ function Gallery() {
               </div>
             </div>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <div className="tp-testimonial-five-slider-section">
               <Swiper

@@ -40,59 +40,62 @@ function About() {
               </div>
             </Col>
             <Col md={7}>
-              <div className="aboutItems">
-                <div className="d-flex align-items-top">
-                  <div className="me-2">
-                    <Image src="./assets/img/icons/icon-1.png" alt="icon" />
-                  </div>
-                  <div className="aboutItems-content">
-                    <strong>
-                      Wir finden den perfekten Studienort für dich!
-                    </strong>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
-                      lacus eleifend quis mi facilisis. Id proin a sed duis vel.
-                      Nibh
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div className="aboutItems">
-                <div className="d-flex align-items-top">
-                  <div className="me-2">
-                    <Image src="./assets/img/icons/icon-2.png" alt="icon" />
-                  </div>
-                  <div className="aboutItems-content">
-                    <strong>Wir bereiten dich vor</strong>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
-                      lacus eleifend quis mi facilisis. Id proin a sed duis vel.
-                      Nibh
-                    </p>
+              <div className="about-features">
+                <div className="aboutItems">
+                  <div className="d-flex align-items-top">
+                    <div className="me-2">
+                      <Image src="./assets/img/icons/icon-1.png" alt="icon" />
+                    </div>
+                    <div className="aboutItems-content">
+                      <strong>
+                        Wir finden den perfekten Studienort für dich!
+                      </strong>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
+                        lacus eleifend quis mi facilisis. Id proin a sed duis
+                        vel. Nibh
+                      </p>
+                      <hr />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <hr />
-              <div className="aboutItems">
-                <div className="d-flex align-items-top">
-                  <div className="me-2">
-                    <Image src="./assets/img/icons/icon-3.png" alt="icon" />
-                  </div>
-                  <div className="aboutItems-content">
-                    <strong>Wir unterstützen dich auf deinem Weg</strong>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
-                      lacus eleifend quis mi facilisis. Id proin a sed duis vel.
-                      Nibh
-                    </p>
+
+                <div className="aboutItems">
+                  <div className="d-flex align-items-top">
+                    <div className="me-2">
+                      <Image src="./assets/img/icons/icon-2.png" alt="icon" />
+                    </div>
+                    <div className="aboutItems-content">
+                      <strong>Wir bereiten dich vor</strong>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
+                        lacus eleifend quis mi facilisis. Id proin a sed duis
+                        vel. Nibh
+                      </p>
+                      <hr />
+                    </div>
                   </div>
                 </div>
+                <div className="aboutItems">
+                  <div className="d-flex align-items-top">
+                    <div className="me-2">
+                      <Image src="./assets/img/icons/icon-3.png" alt="icon" />
+                    </div>
+                    <div className="aboutItems-content">
+                      <strong>Wir unterstützen dich auf deinem Weg</strong>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Id ipsum mauris
+                        lacus eleifend quis mi facilisis. Id proin a sed duis
+                        vel. Nibh
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <Button variant="outline-secondary">
+                  Warum futuredoctor?
+                  <Image src="./assets/img/icons/arrow.svg" alt="icon" />
+                </Button>
               </div>
-              <Button variant="outline-secondary mt-30">
-                Warum futuredoctor?
-                <Image src="./assets/img/icons/arrow.svg" alt="icon" />
-              </Button>
             </Col>
           </Row>
         </Container>

@@ -7,11 +7,11 @@ import React, { useEffect } from "react";
 // import shape images\
 import shape_4 from "../../../public/assets/img/hero/hero-shape-5-1-1.svg";
 import { Col, Container, Row } from "react-bootstrap";
-import tustpilot from "../../../public/assets/img/other/tustpilot.png";
+import tustpilot from "../../../public/assets/img/other/tustpilot.svg";
 import Count from "./count";
-import erfolgreiche from "../../../public/assets/img/icons/HeadsIcon.png";
-import headsIcon2 from "../../../public/assets/img/icons/HeadsIcon2.png";
-import headsIcon3 from "../../../public/assets/img/icons/HeadsIcon3.png";
+import erfolgreiche from "../../../public/assets/img/icons/HeadsIcon.svg";
+import headsIcon2 from "../../../public/assets/img/icons/HeadsIcon2.svg";
+import headsIcon3 from "../../../public/assets/img/icons/HeadsIcon3.svg";
 
 const fun_fact_data = [
   {

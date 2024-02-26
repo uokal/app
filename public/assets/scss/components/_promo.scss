@@ -14,13 +14,50 @@
   &.after-image {
     &::after {
       content: '';
-      background-image: url('../../img/other/promo-3-1.svg');
+      background-image: url('../../img/other/promo2.1.svg');
       width: 204px;
       height: 338px;
       display: inline-block;
       position: absolute;
       top: -40px;
       right: 0;
+      @media #{$xs} {
+        top: unset;
+        bottom: 15px;
+      }
+    }
+  }
+  &.after-image-3 {
+    &::after {
+      content: '';
+      background-image: url('../../img/other/promo3.1.svg');
+      width: 265px;
+      height: 230px;
+      display: inline-block;
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      background-repeat: no-repeat;
+      border-radius: 16px;
+      z-index: 0;
+      @media #{$xs} {
+        top: unset;
+        bottom: 15px;
+      }
+    }
+  }
+  &.first-child {
+    &::after {
+      content: '';
+      background-image: url('../../img/other/promo1.2.svg');
+      width: 306px;
+      height: 286px;
+      display: inline-block;
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      background-repeat: no-repeat;
+      border-radius: 16px;
       @media #{$xs} {
         top: unset;
         bottom: 15px;
@@ -39,6 +76,8 @@
     }
   }
   .promo-content {
+    position: relative;
+    z-index: 1;
     span {
       color: var(--tp-common-white);
       font-family: 'Red Hat Display';
@@ -52,7 +91,7 @@
     h1 {
       color: var(--tp-common-white);
       font-family: 'Red Hat Display';
-      font-size: 32px;
+      font-size: 22px;
       line-height: 150%;
       letter-spacing: 0.03rem;
       margin-bottom: 30px;

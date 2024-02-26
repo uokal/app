@@ -111,7 +111,7 @@
       & li {
         position: relative;
         list-style-type: none;
-        margin-bottom: 18px;
+        margin-bottom: 5px;
         &:last-child {
           margin-bottom: 0;
         }
@@ -304,23 +304,24 @@
   }
   & .tp-footer__contact-info {
     & p {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 16px;
       line-height: 24px;
       color: #595b62;
       font-family: var(--tp-ff-urban);
       padding-bottom: 5px;
+      line-height: normal;
+      font-family: 'Red Hat Display';
     }
     & ul {
       & li {
         & a {
           font-weight: 400;
           font-size: 16px;
-          line-height: 16px;
+          line-height: normal;
           color: #4f5055;
           font-family: var(--tp-ff-dm);
           &.first-child {
-            font-weight: 400;
             font-size: 16px;
             line-height: 16px;
             color: #4f5055;
@@ -796,5 +797,15 @@
         }
       }
     }
+  }
+}
+.footer-bottom {
+  padding: 30px 0;
+  p {
+    font-size: 12px;
+    font-family: 'Red Hat Display';
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: normal;
   }
 }

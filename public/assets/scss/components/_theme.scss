@@ -330,26 +330,36 @@ input[type="color"] {
 .white-bg {
   background-color: var(--tp-common-white);
 }
-.head-title {
+.head-space {
   padding-bottom: 50px;
-  span {
-    background-color: var(--tp-grey-9);
-    border-radius: 50px;
-    font-size: 12px;
-    margin-bottom: 15px;
-    padding: 4px 8px;
-    font-family: 'montserratmedium';
-    color: var(--tp-common-blue2);
-    display: inline-block;
-  }
-  h2 {
-    font-size: 32px;
-    color: var(--tp-common-blue2);
-    font-family: 'Red Hat Display';
-    font-weight: 700;
-    margin-bottom: 15px;
-    @media #{$xs} {
-      font-size: 16px;
+  .head-title {
+    span {
+      background-color: var(--tp-grey-9);
+      border-radius: 50px;
+      font-size: 12px;
+      margin-bottom: 15px;
+      padding: 4px 8px;
+      font-family: 'montserratmedium';
+      color: var(--tp-common-blue2);
+    }
+    h2 {
+      font-size: 32px;
+      color: var(--tp-common-blue2);
+      font-family: 'Red Hat Display';
+      font-weight: 700;
+      margin-bottom: 15px;
+      padding: 24px 0;
+      margin-bottom: 0;
+      &.img-icon {
+        display: inline-block;
+        img {
+          max-width: 32px;
+        }
+      }
+      @media #{$xs} {
+        padding: 12px 0;
+        font-size: 16px;
+      }
     }
   }
 }

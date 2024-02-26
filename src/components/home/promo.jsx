@@ -5,9 +5,9 @@ function Promo() {
     <>
       <section className="space white-bg">
         <Container>
-          <Row>
+          <Row className="align-items-center head-space">
             <Col
-              md={12}
+              md={9}
               className="wow tpfadeUp"
               data-wow-duration=".9s"
               data-wow-delay=".5s"
@@ -22,6 +22,8 @@ function Promo() {
                 </Button>
               </div>
             </Col>
+          </Row>
+          <Row>
             <Col
               md={5}
               className="wow tpfadeUp my-2"
@@ -77,7 +79,7 @@ function Promo() {
                   data-wow-delay=".5s"
                 >
                   <div
-                    className="promo-img"
+                    className="promo-img after-image-3"
                     style={{
                       backgroundImage: `url(./assets/img/other/promo-3.svg)`
                     }}
